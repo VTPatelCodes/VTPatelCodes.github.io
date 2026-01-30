@@ -1,82 +1,73 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the
-# server process.
-
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default" # themes: "default", "air", "sunrise", "mint", "dirt", "contrast"
-title                    : "Dev Patel | Virginia Tech"
-title_separator          : "-"
-name                     : &name "Dev Patel"
-description              : &description "Hi, I'm Dev Patel, a second-year undergraduate at Virginia Tech studying Computer Engineering with a focus in Machine Learning. My interests include weightlifting, exploring India, and cooking."
-url                      : "https://vtpatelcodes.github.io"
-baseurl                  : ""
-repository               : "VTPatelCodes/VTPatelCodes.github.io"
+locale: "en-US"
+site_theme: "default" # themes: "default", "air", "sunrise", "mint", "dirt", "contrast"
+title: "Dev Patel | Virginia Tech"
+title_separator: "-"
+name: "Dev Patel"
+description: "Hi, I'm Dev Patel, a second-year undergraduate at Virginia Tech studying Computer Engineering with a focus in Machine Learning. My interests include weightlifting, exploring India, and cooking."
+url: "https://vtpatelcodes.github.io"
+baseurl: ""
+repository: "VTPatelCodes/VTPatelCodes.github.io"
 
 # Site Author (Sidebar)
-# If a field is blank the icon and link will not appear, otherwise it will be shown.
 author:
-  avatar           : "bio-photo.jpg"  # must exist in /images/
-  name             : "Dev Patel"
-  pronouns         :
-  bio              : "Computer Engineering student at Virginia Tech (Machine Learning)."
-  location         : "Blacksburg, VA"
-  employer         : "Virginia Tech"
-  uri              : "https://vtpatelcodes.github.io"
-  email            : "pateldev4315@gmail.com"
+  avatar: "bio-photo.jpg"  # must exist in /images/
+  name: "Dev Patel"
+  pronouns:
+  bio: "Computer Engineering student at Virginia Tech (Machine Learning)."
+  location: "Blacksburg, VA"
+  employer: "Virginia Tech"
+  uri: "https://vtpatelcodes.github.io"
+  email: "pateldev4315@gmail.com"
 
   # Academic websites
-  academia         :
-  arxiv            :
-  googlescholar    :
-  inspire-hep      :
-  impactstory      :
-  orcid            :
-  semantic         :
-  ssrn             :
-  pubmed           :
-  researchgate     :
-  scopus           :
-  zotero           :
+  academia:
+  arxiv:
+  googlescholar:
+  inspire-hep:
+  impactstory:
+  orcid:
+  semantic:
+  ssrn:
+  pubmed:
+  researchgate:
+  scopus:
+  zotero:
 
   # Repositories and software development
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  github           : "VTPatelCodes"
-  kaggle           :
-  stackoverflow    :
+  bitbucket:
+  codepen:
+  dribbble:
+  github: "VTPatelCodes"
+  kaggle:
+  stackoverflow:
 
   # Social media
-  artstation       :
-  bluesky          :
-  facebook         :
-  flickr           :
-  foursquare       :
-  goodreads        :
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         : "dev-patel-b858562a5"
-  mastodon         :
-  medium           :
-  pinterest        :
-  soundcloud       :
-  steam            :
-  telegram         :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  wikipedia        :
-  xing             :
-  youtube          :
-  zhihu            :
+  artstation:
+  bluesky:
+  facebook:
+  flickr:
+  foursquare:
+  goodreads:
+  google_plus:
+  keybase:
+  instagram:
+  lastfm:
+  linkedin: "dev-patel-b858562a5"
+  mastodon:
+  medium:
+  pinterest:
+  soundcloud:
+  steam:
+  telegram:
+  tumblr:
+  twitter:
+  vine:
+  weibo:
+  wikipedia:
+  xing:
+  youtube:
+  zhihu:
 
 # Publication Category
 publication_category:
@@ -88,69 +79,70 @@ publication_category:
     title: "Conference Papers"
 
 # Site Settings
-teaser                   :
-breadcrumbs              : false
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled"
-talkmap_link             : false
+teaser:
+breadcrumbs: false
+words_per_minute: 160
+future: true
+read_more: "disabled"
+talkmap_link: false
+
 comments:
-  provider               :
+  provider:
   disqus:
-    shortname            :
+    shortname:
   discourse:
-    server               :
+    server:
   facebook:
-    appid                :
-    num_posts            :
-    colorscheme          :
+    appid:
+    num_posts:
+    colorscheme:
 
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
+  allowedFields: ["name", "email", "url", "message"]
+  branch: "gh-pages"
+  commitMessage: "New comment."
+  filename: "comment-{@timestamp}"
+  format: "yml"
+  moderation: true
+  path: "_data/comments/{options.slug}"
+  requiredFields: ["name", "email", "message"]
   transforms:
-    email                : "md5"
+    email: "md5"
   generatedFields:
     date:
-      type               : "date"
+      type: "date"
       options:
-        format           : "iso8601"
+        format: "iso8601"
 
 atom_feed:
-  hide                   : false
-  path                   :
+  hide: false
+  path:
 
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
+google_site_verification:
+bing_site_verification:
+alexa_site_verification:
+yandex_site_verification:
 
 # Social Sharing
 twitter:
-  username               :
+  username:
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :
-og_description           :
+  username:
+  app_id:
+  publisher:
+og_image:
+og_description:
 social:
-  type                   :
-  name                   :
-  links                  :
+  type:
+  name:
+  links:
 
 # Analytics
 analytics:
-  provider               : false
+  provider: "false"
   google:
-    tracking_id          :
+    tracking_id:
 
 # Reading Files
 include:
@@ -270,7 +262,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
       comment: true
 
   - scope:
@@ -299,7 +290,6 @@ plugins:
   - jekyll-redirect-from
   - jemoji
 
-# Mimic GitHub Pages with --safe
 whitelist:
   - jekyll-feed
   - jekyll-gist
